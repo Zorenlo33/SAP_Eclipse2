@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SUSH" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <HEAD>
+    <NAME>F3D3A6A623AFA66E1B4CBD10E00A4F</NAME>
+    <TYPE>HT</TYPE>
+    <DISPLAY_NAME>R3TR G4BA ZAPI_ENTERPRISEPROJECT_MCA</DISPLAY_NAME>
+    <DEVCLASS>ZTEST_MCA</DEVCLASS>
+    <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
+   </HEAD>
+   <USOBX>
+    <USOBX>
+     <NAME>F3D3A6A623AFA66E1B4CBD10E00A4F</NAME>
+     <TYPE>HT</TYPE>
+     <OBJECT>B_BUPA_GRP</OBJECT>
+     <OKFLAG>V</OKFLAG>
+    </USOBX>
+    <USOBX>
+     <NAME>F3D3A6A623AFA66E1B4CBD10E00A4F</NAME>
+     <TYPE>HT</TYPE>
+     <OBJECT>C_PRPS_KST</OBJECT>
+     <OKFLAG>V</OKFLAG>
+    </USOBX>
+    <USOBX>
+     <NAME>F3D3A6A623AFA66E1B4CBD10E00A4F</NAME>
+     <TYPE>HT</TYPE>
+     <OBJECT>F_BKPF_BED</OBJECT>
+     <OKFLAG>V</OKFLAG>
+    </USOBX>
+    <USOBX>
+     <NAME>F3D3A6A623AFA66E1B4CBD10E00A4F</NAME>
+     <TYPE>HT</TYPE>
+     <OBJECT>F_KNA1_BED</OBJECT>
+     <OKFLAG>V</OKFLAG>
+    </USOBX>
+    <USOBX>
+     <NAME>F3D3A6A623AFA66E1B4CBD10E00A4F</NAME>
+     <TYPE>HT</TYPE>
+     <OBJECT>PLOG</OBJECT>
+     <OKFLAG>V</OKFLAG>
+    </USOBX>
+    <USOBX>
+     <NAME>F3D3A6A623AFA66E1B4CBD10E00A4F</NAME>
+     <TYPE>HT</TYPE>
+     <OBJECT>S_START</OBJECT>
+     <OKFLAG>X</OKFLAG>
+    </USOBX>
+    <USOBX>
+     <NAME>F3D3A6A623AFA66E1B4CBD10E00A4F</NAME>
+     <TYPE>HT</TYPE>
+     <OBJECT>V_KNA1_BRG</OBJECT>
+     <OKFLAG>V</OKFLAG>
+    </USOBX>
+   </USOBX>
+   <USOBX_EXT>
+    <item>
+     <OBJECT>B_BUPA_GRP</OBJECT>
+     <TTEXT>Business Partner: Authorization Groups</TTEXT>
+     <OCLSS>AAAB</OCLSS>
+     <OKFLAG>V</OKFLAG>
+     <DEVCLASS>S_BUPA_GENERAL</DEVCLASS>
+     <PS_POSID>BC-SRV-BP</PS_POSID>
+     <CI_TEXT>Check/Without V</CI_TEXT>
+     <CH_TEXT>Check</CH_TEXT>
+     <PR_TEXT>Yes, Without Values</PR_TEXT>
+     <EXCEP>3</EXCEP>
+     <EXCEP_TX>Okay</EXCEP_TX>
+     <EXCEP_ICON>@08@</EXCEP_ICON>
+    </item>
+    <item>
+     <OBJECT>C_PRPS_KST</OBJECT>
+     <TTEXT>PS: Cost Center Authorization for WBS elements</TTEXT>
+     <OCLSS>PS</OCLSS>
+     <OKFLAG>V</OKFLAG>
+     <DEVCLASS>CN_PSP_OPR</DEVCLASS>
+     <PS_POSID>PPM-SCL-STR</PS_POSID>
+     <CI_TEXT>Check/Without V</CI_TEXT>
+     <CH_TEXT>Check</CH_TEXT>
+     <PR_TEXT>Yes, Without Values</PR_TEXT>
+     <EXCEP>3</EXCEP>
+     <EXCEP_TX>Okay</EXCEP_TX>
+     <EXCEP_ICON>@08@</EXCEP_ICON>
+    </item>
+    <item>
+     <OBJECT>F_BKPF_BED</OBJECT>
+     <TTEXT>Accounting Document: Account Authorization for Customers</TTEXT>
+     <OCLSS>FI</OCLSS>
+     <OKFLAG>V</OKFLAG>
+     <DEVCLASS>FBAS</DEVCLASS>
+     <PS_POSID>FI</PS_POSID>
+     <CI_TEXT>Check/Without V</CI_TEXT>
+     <CH_TEXT>Check</CH_TEXT>
+     <PR_TEXT>Yes, Without Values</PR_TEXT>
+     <EXCEP>3</EXCEP>
+     <EXCEP_TX>Okay</EXCEP_TX>
+     <EXCEP_ICON>@08@</EXCEP_ICON>
+    </item>
+    <item>
+     <OBJECT>F_KNA1_BED</OBJECT>
+     <TTEXT>Customer: Account Authorization</TTEXT>
+     <OCLSS>FI</OCLSS>
+     <OKFLAG>V</OKFLAG>
+     <DEVCLASS>FBD</DEVCLASS>
+     <PS_POSID>FI-AR-AR</PS_POSID>
+     <CI_TEXT>Check/Without V</CI_TEXT>
+     <CH_TEXT>Check</CH_TEXT>
+     <PR_TEXT>Yes, Without Values</PR_TEXT>
+     <EXCEP>3</EXCEP>
+     <EXCEP_TX>Okay</EXCEP_TX>
+     <EXCEP_ICON>@08@</EXCEP_ICON>
+    </item>
+    <item>
+     <OBJECT>PLOG</OBJECT>
+     <TTEXT>Personnel Planning</TTEXT>
+     <OCLSS>HR</OCLSS>
+     <OKFLAG>V</OKFLAG>
+     <DEVCLASS>SP00</DEVCLASS>
+     <PS_POSID>BC-BMT-OM</PS_POSID>
+     <CI_TEXT>Check/Without V</CI_TEXT>
+     <CH_TEXT>Check</CH_TEXT>
+     <PR_TEXT>Yes, Without Values</PR_TEXT>
+     <EXCEP>3</EXCEP>
+     <EXCEP_TX>Okay</EXCEP_TX>
+     <EXCEP_ICON>@08@</EXCEP_ICON>
+    </item>
+    <item>
+     <OBJECT>S_START</OBJECT>
+     <TTEXT>Start Authorization Check for TADIR Objects</TTEXT>
+     <OCLSS>AAAB</OCLSS>
+     <OKFLAG>X</OKFLAG>
+     <DEVCLASS>S_PROFGEN_START_AUTH</DEVCLASS>
+     <PS_POSID>BC-SEC-AUT-CHK</PS_POSID>
+     <CI_TEXT>Check</CI_TEXT>
+     <CH_TEXT>Check</CH_TEXT>
+     <PR_TEXT>No</PR_TEXT>
+     <EXCEP>3</EXCEP>
+     <EXCEP_TX>Okay</EXCEP_TX>
+     <EXCEP_ICON>@08@</EXCEP_ICON>
+    </item>
+    <item>
+     <OBJECT>V_KNA1_BRG</OBJECT>
+     <TTEXT>Customer: Account Authorization for Sales Areas</TTEXT>
+     <OCLSS>SD</OCLSS>
+     <OKFLAG>V</OKFLAG>
+     <DEVCLASS>VS</DEVCLASS>
+     <PS_POSID>LO-MD-BP-CM</PS_POSID>
+     <CI_TEXT>Check/Without V</CI_TEXT>
+     <CH_TEXT>Check</CH_TEXT>
+     <PR_TEXT>Yes, Without Values</PR_TEXT>
+     <EXCEP>3</EXCEP>
+     <EXCEP_TX>Okay</EXCEP_TX>
+     <EXCEP_ICON>@08@</EXCEP_ICON>
+    </item>
+   </USOBX_EXT>
+  </asx:values>
+ </asx:abap>
+</abapGit>

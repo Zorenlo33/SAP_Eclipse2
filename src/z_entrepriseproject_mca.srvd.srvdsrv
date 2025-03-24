@@ -1,0 +1,7 @@
+@EndUserText.label: 'TEST MCA'
+define service Z_EntrepriseProject_MCA {
+  expose ZI_EnterpriseProjectTP_MCA as A_EnterpriseProject;
+  expose ZI_EnterpriseProjectE_MCA  as A_EnterpriseProjectElement;
+  expose I_EntProjProcessingStatus  as A_EntProjProcessingStatus;
+  expose I_ProjectProfileCode       as A_ProjectProfileCode;
+}

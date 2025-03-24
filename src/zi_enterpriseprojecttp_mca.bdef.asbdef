@@ -1,0 +1,16 @@
+projection;
+strict ( 2 );
+
+define behavior for ZI_EnterpriseProjectTP_MCA //alias <alias_name>
+{
+  use create;
+//  use update;
+//  use delete;
+
+  use association to_EnterpriseProjectElement { create; }
+}
+
+define behavior for ZI_EnterpriseProjectE_MCA //alias <alias_name>
+{
+  use association _EnterpriseProject;
+}
